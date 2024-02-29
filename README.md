@@ -6,16 +6,17 @@
 시스템 구성도
 
 기능
-조율파 센서: 주유 시작 신호 감지
-카메라: 차량 번호 인식
-Raspberry Pi: 중앙 제어 및 관리
+초음파 센서:  신호 감지 차량 탐지 시작
+카메라: 차량 객체 및 번호 인식
+Raspberry Pi: YOLOv8/OCR을 통한 차량 탐지 번호 인식
 Jetson Orin nano: YOLOv8/OCR을 통한 차량 번호 인식
 Django 서버: 중앙 데이터 관리 및 앱, 웹과의 통신
 앱(사용자): 주유 상태 모니터링 및 제어
 Web(사용자): 주유 기록 확인 및 관리
 DB(Oracle): 주유 데이터 저장 및 관리
+
 기술 스택
-하드웨어: Raspberry Pi, Jetson Orin nano, 조율파 센서, 카메라
+하드웨어: Raspberry Pi, Jetson Orin nano, 초음파 센서, 카메라
 소프트웨어: Django, Flutter, Oracle DB
 언어: Python, Dart, SQL
 
