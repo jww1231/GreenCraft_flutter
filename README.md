@@ -18,17 +18,6 @@ DB(Oracle): 주유 데이터 저장 및 관리
 하드웨어: Raspberry Pi, Jetson Orin nano, 조율파 센서, 카메라
 소프트웨어: Django, Flutter, Oracle DB
 언어: Python, Dart, SQL
-설치 방법
-본 섹션에서는 시스템 구성 요소별 설치 방법에 대해 안내합니다.
-
-서버 설정
-bash
-Copy code
-# Django 서버 설정
-$ pip install django
-$ django-admin startproject smart_fueling
-앱 설치
-Flutter 앱 빌드 및 설치 방법을 기술합니다.
 
 사용 방법
 사용자는 앱을 통해 주유를 시작할 수 있으며, 웹 인터페이스를 통해 주유 기록을 확인할 수 있습니다.
